@@ -39,7 +39,7 @@
 
     <main>
       <section class="cover">
-        <div class="cover__overlay">
+        <div class="overlay">
           <h1 class="cover__title">
             <span class="cover__accent-span text-left">оно</span>
             <span class="cover__accent-span text-center">тебе</span>
@@ -49,7 +49,7 @@
             <p class="cover__description-text">
               Аукцион вещей, в которые никто не верил
             </p>
-            <button class="cover__bet-button">Сделать ставку</button>
+            <button class="cover__bet-button" type="button">Сделать ставку</button>
           </div>
         </div>
       </section>
@@ -59,53 +59,59 @@
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a href="#0" class="lots__card-link">
-              <article class="lots__card_type_film">
-                <div class="lots__card_overlay">
-                  <h3 class="lots__card__title">
-                    Фильм режиссёра, который бросил киношколу
-                  </h3>
-                  <p class="lots__card__text">
-                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                    ставка, если бы вы не знали, что режиссёр — Пол Томас
-                    Андерсон?
-                  </p>
+              <article class="lots__card_type_film lots__card_type_film-image">
+                <div class="overlay">
+                  <div class="lots__card-content">
+                    <h3 class="lots__card__title">
+                      Фильм режиссёра, который бросил киношколу
+                    </h3>
+                    <p class="lots__card__text">
+                      Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                      ставка, если бы вы не знали, что режиссёр — Пол Томас
+                      Андерсон?
+                    </p>
+                  </div>
                 </div>
               </article>
             </a>
           </li>
           <li class="lots__card-list-item">
             <a href="#0" class="lots__card-link">
-              <article class="lots__card_type_book">
-                <div class="lots__card_overlay">
-                  <h3 class="lots__card__title">
-                    Книга, где описан один скучный день из жизни рекламного
-                    агента
-                  </h3>
-                  <p class="lots__card__text">
-                    Объёмом почти в тысячу страниц. Иногда без знаков препинания
-                    и с переходами на древнеанглийский. В ней одновременно
-                    рассказывается о 16 июня 1904 года и об истории литературы,
-                    начиная с античных времён. И это всё накладывается на
-                    эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
-                    Джеймса Джойса?
-                  </p>
+              <article class="lots__card_type_book lots__card_type_book-image">
+                <div class="overlay">
+                  <div class="lots__card-content">
+                    <h3 class="lots__card__title">
+                      Книга, где описан один скучный день из жизни рекламного
+                      агента
+                    </h3>
+                    <p class="lots__card__text">
+                      Объёмом почти в тысячу страниц. Иногда без знаков препинания
+                      и с переходами на древнеанглийский. В ней одновременно
+                      рассказывается о 16 июня 1904 года и об истории литературы,
+                      начиная с античных времён. И это всё накладывается на
+                      эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                      Джеймса Джойса?
+                    </p>
+                  </div>
                 </div>
               </article>
             </a>
           </li>
           <li class="lots__card-list-item">
             <a href="#0" class="lots__card-link">
-              <article class="lots__card_type_picture">
-                <div class="lots__card_overlay">
-                  <h3 class="lots__card__title">
-                    Картина, которую повторит даже 5-летний сын маминой подруги
-                  </h3>
-                  <p class="lots__card__text">
-                    Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                    что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                    котиков... Сколько бы вы на такое поставили, если бы не
-                    знали, что это — одна из революционных работ Кандинского?
-                  </p>
+              <article class="lots__card_type_picture lots__card_type_picture-image">
+                <div class="overlay">
+                  <div class="lots__card-content">
+                    <h3 class="lots__card__title">
+                      Картина, которую повторит даже 5-летний сын маминой подруги
+                    </h3>
+                    <p class="lots__card__text">
+                      Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                      что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                      котиков... Сколько бы вы на такое поставили, если бы не
+                      знали, что это — одна из революционных работ Кандинского?
+                    </p>
+                  </div>
                 </div>
               </article>
             </a>
@@ -125,7 +131,7 @@
           />
         </div>
         <article class="auction-about__content">
-          <h4 class="auction-about__title">об аукционе</h4>
+          <h3 class="auction-about__title">об аукционе</h3>
           <div class="auction-about__text">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
@@ -151,7 +157,7 @@
       <address class="footer__address">
         <a href="tel.:+99995555555">+9 999 555 5555 <br /></a>
         <a href="mailto:mail@example.com">info@sobaka.ge <br /></a>
-        <span class="footer__address-text"
+        <span
           >наб. Принсенграхт 263-265, <br />
           Амстердам
         </span>
